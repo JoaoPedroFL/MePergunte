@@ -39,8 +39,6 @@ app.get("/perguntar", (req, res) => {
     res.render("perguntar")
 })
 
-<<<<<<< HEAD
-=======
 app.post("/salvarpergunta", (req, res) => {
     var titulo = req.body.titulo
     var descricao = req.body.descricao
@@ -86,7 +84,6 @@ app.post("/responder", (req, res) => {
     })
 })
 
->>>>>>> Front-end
 app.listen(8080, ()=> {
     console.log('App rodando')
 })
