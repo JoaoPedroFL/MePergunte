@@ -2,7 +2,7 @@
 <body>
     <%- include ('partials/navbar.ejs') %>
 
-    <div class="container">
+    <div class="container mb-3">
         <hr>
         <h1 class="text-center">Perguntas</h1>
         <hr>
@@ -19,10 +19,8 @@
                 <div class="card-footer">
                     <a href="/pergunta/<%= pergunta.id %>"><button class="btn btn-primary">Responder</button></a>
                 </div>
-            </div>
-            
+            </div>   
         <%})%>
-
     </div>
 </body>
 <%- include ('partials/footer.ejs') %>
