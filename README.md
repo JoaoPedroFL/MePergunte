@@ -1,6 +1,6 @@
 ![header](https://user-images.githubusercontent.com/95944454/159194797-881b4d7d-be0c-4ddb-a457-9616737830f4.jpeg)
 
-> status: Developing ⚠️
+> status: Finalizado ✅
 
 ### Uma plataforma de perguntas e respostas!
 
@@ -44,5 +44,5 @@
 1) Tenha as ferramentas usadas na aplicação instaladas na sua máquina, com a correspondente versão acima.
 2) Crie um Schema no BD, recomendo nomeai-lo ```pergunte_me```, na pasta Database modifique o arquivo database.js com as configurações do seu MySql.(```Nome do BD```, root, senha, host, dialect)
 3) Recomendo instalar o Nodemon e executar no terminal o comando, ``` nodemon index.js ```
-5) Automaticamente será criada uma tabela perguntas no Schema que você criou, e a aplicação estará funcionando perfeitamente.
+5) Automaticamente será criada as tabelas de perguntas e respostas no Schema que você criou, e a aplicação estará funcionando perfeitamente.
 6) No arquivo index.js a partir da linha 68, você pode colocar a porta do servidor que for de sua escolha.
